@@ -82,7 +82,7 @@ void printMatx(float **matx, int n)
 }
 
 /**
- * This function populates the matrix with random numbers.
+ * This function populates the matrix with random numbers. It will only populate on coordinates that is divisible by 10, including 0,0
  *
  * @param matx the matrix to be populated
  * @param n the size of the matrix
@@ -133,6 +133,14 @@ void terrain_inter(float **M, int n)
     }
 }
 
+
+/**
+ * It creates a matrix of size n, populates it with random values, and then calls the terrain_inter
+ * function.
+ * This benchmark is designed to output the necessary information needed for the exercise lab report
+ * 
+ * @param n The size of the matrix.
+ */
 void run_benchmark(int n)
 {
     srand(time(NULL));
@@ -145,7 +153,11 @@ void run_benchmark(int n)
     t = clock();
     terrain_inter(matx, n);
     t = clock() - t;
+
     double time_taken = ((double)t) / CLOCKS_PER_SEC;
+
+    // Comment out this code below if you want the program to print the matrices interpolated
+    // printMatx(matx, n);
 
     printf("Matrix size: %d | Time Elapsed: %.5f seconds\n", n - 1, time_taken);
 
@@ -154,6 +166,8 @@ void run_benchmark(int n)
 
 int main()
 {
+    // This first part of the code is for using the code with inputs
+
     // int n = 0;
     // printf("Enter n divisible by 10: ");
     // int check = scanf("%d", &n);
@@ -186,6 +200,7 @@ int main()
 
     // destroyMatx(matx);
 
+    // ==============================================================
     // This part of the code is for the benchmarking for lab01-pt2
     for (int i = 0; i < 3; i++)
     {
