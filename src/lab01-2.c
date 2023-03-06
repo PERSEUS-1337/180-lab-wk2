@@ -1,4 +1,4 @@
-// CMSC 180 Lab 01 Part 01
+// CMSC 180 Lab 01 Part 02
 // Author: Aron Resty Ramillano | 2020-01721
 // Section: T3L
 
