@@ -9,6 +9,12 @@ This is a revision of my first python file that uses Area Weighted Interpolation
 ## Features
  1. It can calculate matrices that is divisible by 10 with high performance using the C language
  2. This revision has a benchmark that can test the program's performance with 3 passes on calculating matrices ranging from 100 to 20000
+
+## Files included:
+ - lab01-2.c
+ - n_vs_runtime_complexity.xlsl
+ - Ramillano_labreport_exer2.pdf
+ - README.md
   
 ## How to setup
  - Must have GCC

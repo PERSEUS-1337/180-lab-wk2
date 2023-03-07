@@ -4,7 +4,7 @@ Matrix size: 200 | Time Elapsed: 0.00071 seconds
 Matrix size: 300 | Time Elapsed: 0.00158 seconds
 Matrix size: 400 | Time Elapsed: 0.00276 seconds
 Matrix size: 500 | Time Elapsed: 0.00435 seconds
-Matrix size: 600 | Time Elapsed: 0.00619 seconds
+Matrix size: 600 | Time Elapsed: 0.00435 seconds
 Matrix size: 700 | Time Elapsed: 0.00967 seconds
 Matrix size: 800 | Time Elapsed: 0.01133 seconds
 Matrix size: 900 | Time Elapsed: 0.01410 seconds
