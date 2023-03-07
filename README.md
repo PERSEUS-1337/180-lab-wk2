@@ -11,6 +11,7 @@ This is a revision of my first python file that uses Area Weighted Interpolation
  2. This revision has a benchmark that can test the program's performance with 3 passes on calculating matrices ranging from 100 to 20000
 
 ## Files included:
+ - lab01.c - This file contains my attempt for my first laboratory activity since the c files are a refined version of my initial python submissions.
  - lab01-2.c
  - n_vs_runtime_complexity.xlsl
  - Ramillano_labreport_exer2.pdf
